@@ -86,14 +86,14 @@ p {
     background-color: #2589bd;
 }
 
-/* Refactor benefits from 3 into 1, just like men's body wash
+/* Refactor benefits from 3 sections into 1 in order to reuse and simplify code
 ---------------------------------------------*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* let's hide this----------------------------
+/* remove-------------------------------------
 
 .benefit-brand {
     margin-bottom: 32px;
@@ -106,15 +106,13 @@ p {
 }
 
 ---------------------------------------------*/
-/* that worked, so let's lather and repeat
----------------------------------------------*/
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* let's hide this---------------------------
+/* remove-------------------------------------
 
 .benefit-brand h3 {
     margin-bottom: 10px;
@@ -134,7 +132,7 @@ p {
     max-width: 150px;
 }
 
-/* let's hide this---------------------------
+/* remove-------------------------------------
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -147,8 +145,6 @@ p {
     max-width: 150px;
 }
 ---------------------------------------------*/
-/* pattern recognition in action, let's do the Timewarp again!
----------------------------------------------*/
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
@@ -159,7 +155,7 @@ p {
     color: #ffffff;
 }
 
-/* let's hide this---------------------------
+/* remove-------------------------------------
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -183,7 +179,7 @@ p {
     max-height: 200px;
 }
 
-/* let's hide this---------------------------
+/* remove-------------------------------------
 .online-reputation-management img {
     max-height: 200px;
 }
@@ -197,7 +193,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* let's hide this---------------------------
+/* remove-------------------------------------
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
