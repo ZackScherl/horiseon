@@ -6,5 +6,5 @@ Criteria was to simplify and reuse code to Focusing on using more appropriate HT
 Best practices include creating comments and commits as we move along to ensure we as developers can remember our changes.</p>
 
 <h2>Starter code was sourced from:</h2>
-<link>https://github.com/coding-boot-camp/urban-octo-telegram/blob/main/Develop/index.html</link>
+<br><link>https://github.com/coding-boot-camp/urban-octo-telegram/blob/main/Develop/index.html</link></br>
 <link>https://github.com/coding-boot-camp/urban-octo-telegram/blob/main/Develop/assets/css/style.css</link>
